@@ -1,0 +1,40 @@
+.failed-payment-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .failed-payment-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .error-icon {
+    font-size: 5em;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .retry-button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

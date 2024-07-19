@@ -1,0 +1,76 @@
+.shipping-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: right;
+  }
+  
+  .shipping-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+  }
+  
+  .checkout-steps span {
+    margin: 0 10px;
+    color: black;
+  }
+  
+  .checkout-steps .active {
+    color: blue;
+  }
+  
+  .shipping-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  }
+  
+  .form-group textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+  }
+  

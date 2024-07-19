@@ -1,0 +1,67 @@
+.book-list-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1480px;
+    text-align: center;
+  }
+  
+  .book-list-page h2 {
+    margin-bottom: 20px;
+    text-align: right;
+    color: #333;
+  }
+  
+  .sort-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    direction: rtl;
+    justify-content: right;
+
+  }
+  
+  .sort-bar span {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .sort-bar a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sort-bar a:hover {
+    text-decoration: underline;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+  }
+  
+  .book-item {
+    background-color: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .book-item img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .book-title, .book-price {
+    margin: 5px 0;
+    color: #333;
+  }
+  

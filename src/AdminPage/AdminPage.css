@@ -1,0 +1,30 @@
+.admin-page {
+    display: flex;
+    direction: rtl;
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: right;
+  }
+  
+  .admin-page h2 {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .admin-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 13px;
+  }
+  
+  .admin-list li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding-inline: 15px;
+  }
+  

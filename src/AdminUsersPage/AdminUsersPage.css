@@ -1,0 +1,34 @@
+.admin-users-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .admin-users-page h2 {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .users-table th, .users-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .users-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .users-table td i {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,40 @@
+.admin-order-report-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .admin-order-report-page h2 {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .main-report-button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .order-report-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-report-table th, .order-report-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .order-report-table th {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,81 @@
+.main-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1480px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    background-color: #EBEBEB;
+    padding: 1px;
+    border-radius: 10px;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .book-list-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .book-list {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-left: 55px;
+    flex-grow: 1;
+  }
+  
+  .book-list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .book-item {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    flex-shrink: 0;
+    width: 120px;
+  }
+  
+  .book-item img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .book-title, .book-price {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .scroll-button {
+    background-color: #888;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    left: -25px;
+    margin-left: 25px;
+  }
+  
+  .scroll-button i {
+    font-size: 20px;
+  }
+  

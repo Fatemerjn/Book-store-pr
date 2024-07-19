@@ -1,0 +1,48 @@
+.admin-add-edit-topic-page {
+    background-color: #E1CCCC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  .admin-add-edit-topic-page h2 {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .topic-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .form-group label {
+    text-align: right;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  }
+  
+  .save-button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
